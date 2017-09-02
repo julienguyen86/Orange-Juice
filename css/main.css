@@ -1,0 +1,125 @@
+body {
+	margin:0;
+	padding:0;
+}
+
+
+nav.navigation .logo {
+	color:white;
+	font-weight: bold;
+	font-size:24px;
+	line-height: 20px;
+	margin-top: 15px;
+	padding: 15px 15px 15px 150px;
+
+}
+nav.navigation {
+	background-color: #FE7E00;
+	margin: 0px;
+	padding: 35px 0;
+}
+
+nav.navigation ul {
+	float: right;
+	margin: 0;
+
+}
+ 
+nav.navigation li {
+	display: inline;
+	margin: 0 15px;
+	padding: 10px;
+	width: 10%;
+}
+
+nav.navigation a { 
+color: white;
+text-decoration: none;
+}
+
+
+.search-box {
+	position: relative;
+	float: right;
+	border-color: #f5f5f5;
+	font-size: 24px;
+	border-radius: 25px;
+	padding: 0 20px;
+}
+
+input {
+	width: 200px;
+	height: 35px;
+	background-color: #e6e6e6;
+}
+
+.fa-search {
+	position: absolute;
+	right: 30px;
+	top: 5px;
+	color: gray;
+	font-size: 5px;
+}
+
+.quote {
+	color: orange;
+	float:right;
+	line-height: 50px;
+	margin: 10% auto;
+}
+
+.quote h1 {
+	font-family: 'arial', sans-serif;
+	font-size: 32px;
+	font-weight: 300;
+	margin-top: 65px;
+
+}
+
+.quote h1 > span {
+	font-weight: bold;
+}
+
+.orange {
+	color: orange;
+}
+
+h1 span {
+	color: aqua;
+}
+
+
+#button1 {
+	background-color: #FE7E00;
+	color: #ffffff;
+	padding: 20px 50px;
+	font-weight: bold;
+	border: 1px solid;
+}
+
+#button2 {
+	background-color: #7ACCC8;
+	color: #ffffff;
+	padding: 20px 50px;
+	border: 1px solid;
+
+}
+
+.image {
+	margin: 10% auto;
+	background-color: white;
+	position: absolute;
+}
+
+img {
+	width: 600px;
+	height: 420px;
+}
+
+#footer {
+   width: 100%;
+   position: absolute;
+   bottom: 0;
+   height: 80px;
+   background-color: #7ACCC8;
+}
